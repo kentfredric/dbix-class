@@ -1,0 +1,7 @@
+color = 1
+only = 1     ; Ignore policies not listed below
+severity = 1 ; Include any policy listed regardless of severity
+
+[Documentation::PodSpelling]
+spell_command = aspell list --lang en_GB
+stop_words = DBIC DBI IRC CDs API SQL SQLite MySQL PostgreSQL DBD APIs CPAN GitHub ribasushi Rabbitson mst CDBI CDBICompat DWIM ResultSet ResultSource perl perl-ish multi codebase repo gitweb committers schemas pre versioned stringified accessors stringify timestamp accessor DBIx repositioning prefetch MSSQL FreeTDS Sybase ASE GUID GUIDs TDS DSN TODO
