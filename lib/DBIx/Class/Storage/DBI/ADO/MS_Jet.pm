@@ -27,7 +27,7 @@ information on the MS Access driver for L<DBIx::Class>.
 
 This driver implements workarounds for C<TEXT/IMAGE/MEMO> columns, sets the
 L<cursor_class|DBIx::Class::Storage::DBI/cursor_class> to
-L<DBIx::Class::Storage::DBI::ADO::MS_Jet::Cursor> to normalize returned
+L<DBIx::Class::Storage::DBI::ADO::MS_Jet::Cursor> to normalise returned
 C<GUID> values and provides L<DBIx::Class::InflateColumn::DateTime> support
 for C<DATETIME> columns.
 

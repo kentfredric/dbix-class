@@ -48,7 +48,7 @@ sub _quoting_enabled {
   ( defined $_[0]->{quote_char} and length $_[0]->{quote_char} ) ? 1 : 0
 }
 
-# for when I need a normalized l/r pair
+# for when I need a normalised l/r pair
 sub _quote_chars {
 
   # in case we are called in the old !!$sm->_quote_chars fashion
@@ -212,7 +212,7 @@ sub insert {
 #  my ($self, $table, $data, $options) = @_;
 
   # SQLA will emit INSERT INTO $table ( ) VALUES ( )
-  # which is sadly understood only by MySQL. Change default behavior here,
+  # which is sadly understood only by MySQL. Change default behaviour here,
   # until SQLA2 comes with proper dialect support
   if (! $_[2] or (ref $_[2] eq 'HASH' and !keys %{$_[2]} ) ) {
     my @bind;

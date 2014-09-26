@@ -210,7 +210,7 @@ sub modver_gt_or_eq ($$) {
     my $cf = 1;
     while ( ( (caller($cf+1))[3] || '' ) =~ / :: (?:
 
-      # these are public API parts that alter behavior on wantarray
+      # these are public API parts that alter behaviour on wantarray
       search | search_related | slice | search_literal
 
         |

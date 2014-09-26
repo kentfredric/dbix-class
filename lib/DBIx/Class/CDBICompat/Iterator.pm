@@ -6,7 +6,7 @@ use warnings;
 
 =head1 NAME
 
-DBIx::Class::CDBICompat::Iterator - Emulates the extra behaviors of the Class::DBI search iterator.
+DBIx::Class::CDBICompat::Iterator - Emulates the extra behaviours of the Class::DBI search iterator.
 
 =head1 SYNOPSIS
 
@@ -14,7 +14,7 @@ See DBIx::Class::CDBICompat for usage directions.
 
 =head1 DESCRIPTION
 
-Emulates the extra behaviors of the Class::DBI search iterator.
+Emulates the extra behaviours of the Class::DBI search iterator.
 
 =head2 Differences from DBIx::Class result set
 

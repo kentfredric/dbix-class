@@ -2143,7 +2143,7 @@ array:
   }
 
 You could then create average, high and low execution times for an SQL
-statement and dig down to see if certain parameters cause aberrant behavior.
+statement and dig down to see if certain parameters cause aberrant behaviour.
 You might want to check out L<DBIx::Class::QueryLog> as well.
 
 =head1 IMPROVING PERFORMANCE

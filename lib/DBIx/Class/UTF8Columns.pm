@@ -48,7 +48,7 @@ are both affected by this bug.
 
 It is unclear how this bug went undetected for so long (it was
 introduced in March 2006), No attempts to fix it will be made while the
-implications of changing such a fundamental behavior of DBIx::Class are
+implications of changing such a fundamental behaviour of DBIx::Class are
 being evaluated. However in this day and age you should not be using
 this module anyway as Unicode is properly supported by all major
 database engines, as explained below.

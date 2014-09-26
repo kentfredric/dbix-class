@@ -14,7 +14,7 @@ ADO
 
 =head1 DESCRIPTION
 
-This class is for normalizing GUIDs retrieved from Microsoft Access over ADO.
+This class is for normalising GUIDs retrieved from Microsoft Access over ADO.
 
 You probably don't want to be here, see
 L<DBIx::Class::Storage::DBI::ACCESS> for information on the Microsoft
@@ -28,7 +28,7 @@ It is overridable via your
 L<connect_info|DBIx::Class::Storage::DBI/connect_info>.
 
 You can use L<DBIx::Class::Cursor::Cached> safely with this class and not lose
-the GUID normalizing functionality,
+the GUID normalising functionality,
 L<::Cursor::Cached|DBIx::Class::Cursor::Cached> uses the underlying class data
 for the inner cursor class.
 

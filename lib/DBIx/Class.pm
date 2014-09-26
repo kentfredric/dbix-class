@@ -274,7 +274,7 @@ accessible at the following locations:
 
 =item * GitHub mirror: L<https://github.com/dbsrgits/DBIx-Class>
 
-=item * Authorized committers: L<ssh://dbsrgits@git.shadowcat.co.uk/DBIx-Class.git>
+=item * Authorised committers: L<ssh://dbsrgits@git.shadowcat.co.uk/DBIx-Class.git>
 
 =item * Travis-CI log: L<https://travis-ci.org/dbsrgits/dbix-class/builds>
 
@@ -291,7 +291,7 @@ perhaps one of the most successful such projects on L<CPAN|http://cpan.org>.
 It is important to remember that ideas do not always result in a direct code
 contribution, but deserve acknowledgement just the same. Time and time again
 the seemingly most insignificant questions and suggestions have been shown
-to catalyze monumental improvements in consistency, accuracy and performance.
+to catalyse monumental improvements in consistency, accuracy and performance.
 
 =for comment this line is replaced with the author list at dist-building time
 
