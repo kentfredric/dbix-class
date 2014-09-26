@@ -1090,7 +1090,7 @@ bugs! While C<resultset_attributes> isn't deprecated per se, its usage is
 not recommended!
 
 Since relationships use attributes to link tables together, the "default"
-attributes you set may cause unpredictable and undesired behavior.  Furthermore,
+attributes you set may cause unpredictable and undesired behaviour.  Furthermore,
 the defaults cannot be turned off, so you are stuck with them.
 
 In most cases, what you should actually be using are project-specific methods:

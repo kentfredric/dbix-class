@@ -266,7 +266,7 @@ sub connect_replicant {
 
 The standard ensure_connected method with throw an exception should it fail to
 connect.  For the master database this is desirable, but since replicants are
-allowed to fail, this behavior is not desirable.  This method wraps the call
+allowed to fail, this behaviour is not desirable.  This method wraps the call
 to ensure_connected in an eval in order to catch any generated errors.  That
 way a slave can go completely offline (e.g. the box itself can die) without
 bringing down your entire pool of databases.

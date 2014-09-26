@@ -234,7 +234,7 @@ sub bind_attribute_by_data_type {
 
 # FIXME This list is an abomination. We need a way to do this outside
 # of the scope of DBIC, as it is right now nobody will ever think to
-# even look here to diagnose some sort of misbehavior.
+# even look here to diagnose some sort of misbehaviour.
 sub _mssql_max_data_type_representation_size_in_bytes {
   my $self = shift;
 

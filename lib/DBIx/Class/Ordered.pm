@@ -146,7 +146,7 @@ __PACKAGE__->mk_classdata( 'null_position_value' => 0 );
 Returns an B<ordered> resultset of all other objects in the same
 group excluding the one you called it on.
 
-The ordering is a backwards-compatibility artifact - if you need
+The ordering is a backwards-compatibility artefact - if you need
 a resultset with no ordering applied use C<_siblings>
 
 =cut
@@ -622,7 +622,7 @@ sub _track_storage_value {
 You would want to override the methods below if you use sparse
 (non-linear) or non-numeric position values. This can be useful
 if you are working with preexisting non-normalised position data,
-or if you need to work with materialized path columns.
+or if you need to work with materialised path columns.
 
 =head2 _position_from_value
 
@@ -888,7 +888,7 @@ reloads when the C<move_*> happens as a part of a transaction
 
 If it is not possible for you to wrap the entire call-chain in a transaction,
 you will need to call L<DBIx::Class::Row/discard_changes> to get an object
-up-to-date before proceeding, otherwise undefined behavior will result.
+up-to-date before proceeding, otherwise undefined behaviour will result.
 
 =head2 Default Values
 

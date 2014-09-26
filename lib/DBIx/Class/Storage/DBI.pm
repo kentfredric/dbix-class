@@ -181,7 +181,7 @@ DBIx::Class::Storage::DBI - DBI storage handler
 
 This class represents the connection to an RDBMS via L<DBI>.  See
 L<DBIx::Class::Storage> for general information.  This pod only
-documents DBI-specific methods and behaviors.
+documents DBI-specific methods and behaviours.
 
 =head1 METHODS
 
@@ -522,7 +522,7 @@ each other. If unspecified it defaults to the most commonly used C<.>.
 This Storage driver normally installs its own C<HandleError>, sets
 C<RaiseError> and C<ShowErrorStatement> on, and sets C<PrintError> off on
 all database handles, including those supplied by a coderef.  It does this
-so that it can have consistent and useful error behavior.
+so that it can have consistent and useful error behaviour.
 
 If you set this option to a true value, Storage will not do its usual
 modifications to the database handle's attributes, and instead relies on
@@ -2267,7 +2267,7 @@ sub _dbh_execute_for_fetch {
   # passed in. Construct the dispensing coderef. *NOTE* the order
   # of $data will differ from this of the ?s in the SQL (due to
   # alphabetical ordering by colname). We actually do want to
-  # preserve this behavior so that prepare_cached has a better
+  # preserve this behaviour so that prepare_cached has a better
   # chance of matching on unrelated calls
 
   my $fetch_row_idx = -1; # saner loop this way
@@ -3162,7 +3162,7 @@ queries.
 This hook is to allow specific L<DBIx::Class::Storage> drivers to change the
 way these aliases are named.
 
-The default behavior is C<< "$relname_$join_count" if $join_count > 1 >>,
+The default behaviour is C<< "$relname_$join_count" if $join_count > 1 >>,
 otherwise C<"$relname">.
 
 =cut

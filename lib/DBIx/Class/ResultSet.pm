@@ -84,7 +84,7 @@ you want to check if a resultset has any results, you must use C<if $rs
 =head2 Chaining resultsets
 
 Let's say you've got a query that needs to be run to return some data
-to the user. But, you have an authorization system in place that
+to the user. But, you have an authorisation system in place that
 prevents certain users from seeing certain information. So, you want
 to construct the basic query in one method, but add constraints to it in
 another.
@@ -210,7 +210,7 @@ L<ResulSet|DBIx::Class::ResultSet> classes.
 
 Using L<Moose> or L<Moo> in your ResultSet classes is usually overkill, but
 you may find it useful if your ResultSets contain a lot of business logic
-(e.g. C<has xml_parser>, C<has json>, etc) or if you just prefer to organize
+(e.g. C<has xml_parser>, C<has json>, etc) or if you just prefer to organise
 your code via roles.
 
 In order to write custom ResultSet classes with L<Moo> you need to use the
@@ -743,7 +743,7 @@ which are fully defined by the available condition.
 
 If no such constraint is found, C<find> currently defaults to a simple
 C<< search->(\%column_values) >> which may or may not do what you expect.
-Note that this fallback behavior may be deprecated in further versions. If
+Note that this fallback behaviour may be deprecated in further versions. If
 you need to search with arbitrary conditions - use L</search>. If the query
 resulting from this fallback produces more than one row, a warning to the
 effect is issued, though only the first row is constructed and returned as
@@ -3883,7 +3883,7 @@ sub _merge_joinpref_attr {
       require Hash::Merge;
       my $hm = Hash::Merge->new;
 
-      $hm->specify_behavior({
+      $hm->specify_behaviour({
         SCALAR => {
           SCALAR => sub {
             my ($defl, $defr) = map { defined $_ } (@_[0,1]);

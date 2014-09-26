@@ -12,7 +12,7 @@ over L<DBD::SQLAnywhere>
 
 =head1 DESCRIPTION
 
-This class is for normalizing GUIDs retrieved from SQL Anywhere via
+This class is for normalising GUIDs retrieved from SQL Anywhere via
 L<DBD::SQLAnywhere>.
 
 You probably don't want to be here, see
@@ -27,7 +27,7 @@ It is overridable via your
 L<connect_info|DBIx::Class::Storage::DBI/connect_info>.
 
 You can use L<DBIx::Class::Cursor::Cached> safely with this class and not lose
-the GUID normalizing functionality,
+the GUID normalising functionality,
 L<::Cursor::Cached|DBIx::Class::Cursor::Cached> uses the underlying class data
 for the inner cursor class.
 

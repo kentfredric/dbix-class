@@ -110,7 +110,7 @@ with NULL as the default, and save yourself a SELECT.
 
  CAVEAT:
 
- The behavior described above will backfire if you use a foreign key column
+ The behaviour described above will backfire if you use a foreign key column
  with a database-defined default. If you call the relationship accessor on
  an object that doesn't have a set value for the FK column, DBIC will throw
  an exception, as it has no way of knowing the PK of the related object (if

@@ -7,7 +7,7 @@ use warnings;
 
 =head1 NAME
 
-DBIx::Class::CDBICompat::ColumnsAsHash - Emulates the behavior of Class::DBI where the object can be accessed as a hash of columns.
+DBIx::Class::CDBICompat::ColumnsAsHash - Emulates the behaviour of Class::DBI where the object can be accessed as a hash of columns.
 
 =head1 SYNOPSIS
 
@@ -15,7 +15,7 @@ See DBIx::Class::CDBICompat for usage directions.
 
 =head1 DESCRIPTION
 
-Emulates the I<undocumented> behavior of Class::DBI where the object can be accessed as a hash of columns.  This is often used as a performance hack.
+Emulates the I<undocumented> behaviour of Class::DBI where the object can be accessed as a hash of columns.  This is often used as a performance hack.
 
     my $column = $result->{column};
 

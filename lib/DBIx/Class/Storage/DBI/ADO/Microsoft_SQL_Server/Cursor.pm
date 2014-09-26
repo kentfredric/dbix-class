@@ -10,7 +10,7 @@ use namespace::clean;
 =head1 NAME
 
 DBIx::Class::Storage::DBI::ADO::Microsoft_SQL_Server::Cursor - Remove trailing
-NULLs in binary data and normalize GUIDs for MSSQL over ADO
+NULLs in binary data and normalise GUIDs for MSSQL over ADO
 
 =head1 DESCRIPTION
 
@@ -31,7 +31,7 @@ default. It is overridable via your
 L<connect_info|DBIx::Class::Storage::DBI/connect_info>.
 
 You can use L<DBIx::Class::Cursor::Cached> safely with this class and not lose
-the binary data normalizing functionality,
+the binary data normalising functionality,
 L<::Cursor::Cached|DBIx::Class::Cursor::Cached> uses the underlying class data
 for the inner cursor class.
 

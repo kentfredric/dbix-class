@@ -220,7 +220,7 @@ in the $attr hashref.
 
 By default, DBIC will return undef and avoid querying the database if a
 C<belongs_to> accessor is called when any part of the foreign key IS NULL. To
-disable this behavior, pass C<< undef_on_null_fk => 0 >> in the C<\%attrs>
+disable this behaviour, pass C<< undef_on_null_fk => 0 >> in the C<\%attrs>
 hashref.
 
 NOTE: If you are used to L<Class::DBI> relationships, this is the equivalent
@@ -328,7 +328,7 @@ more info see L<DBIx::Class::Relationship::Base/condition>.
 Three methods are created when you create a has_many relationship.
 The first method is the expected accessor method, C<$accessor_name()>.
 The second is almost exactly the same as the accessor method but "_rs"
-is added to the end of the method name, eg C<$accessor_name_rs()>.
+is added to the end of the method name, e.g. C<$accessor_name_rs()>.
 This method works just like the normal accessor, except that it always
 returns a resultset, even in list context. The third method, named C<<
 add_to_$rel_name >>, will also be added to your Row items; this allows
@@ -425,7 +425,7 @@ more info see L<DBIx::Class::Relationship::Base/condition>.
 
 If you update or delete an object in a class with a C<might_have>
 relationship, the related object will be updated or deleted as well. To
-turn off this behavior, add C<< cascade_delete => 0 >> to the C<$attr>
+turn off this behaviour, add C<< cascade_delete => 0 >> to the C<$attr>
 hashref.
 
 The cascaded operations are performed after the requested delete or

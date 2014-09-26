@@ -1049,8 +1049,8 @@ sub _copy_state_from {
 
 Throws an exception. Obeys the exemption rules of L<DBIx::Class::Carp> to report
 errors from outer-user's perspective. See L</exception_action> for details on overriding
-this method's behavior.  If L</stacktrace> is turned on, C<throw_exception>'s
-default behavior will provide a detailed stack trace.
+this method's behaviour.  If L</stacktrace> is turned on, C<throw_exception>'s
+default behaviour will provide a detailed stack trace.
 
 =cut
 
@@ -1069,7 +1069,7 @@ sub throw_exception {
 
     carp_unique (
       "The exception_action handler installed on $self returned false instead"
-    .' of throwing an exception. This behavior has been deprecated, adjust your'
+    .' of throwing an exception. This behaviour has been deprecated, adjust your'
     .' handler to always rethrow the supplied error.'
     );
   }
